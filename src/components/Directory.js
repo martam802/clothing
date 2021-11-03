@@ -38,15 +38,11 @@ export default function Directory() {
       },
     ],
   });
-  console.log(item.sections);
+
   return (
     <>
       {item.sections.map((product) => (
-        <MenuItem
-          key={product.id}
-          imageUrl={product.imageUrl}
-          title={product.title}
-        >
+        <MenuItem key={product.id} {...product}>
           menu item
         </MenuItem>
       ))}

@@ -1,10 +1,10 @@
 import React from "react";
-import Homepage from "./page/homepage";
+import Index from "./pages/index";
 
 function App() {
   return (
     <div>
-      <Homepage />
+      <Index />
     </div>
   );
 }
